@@ -11,3 +11,5 @@
 9. Again we do "dvc add data/" (creates data.dvc) then "git add .gitignore data.dvc"
 10. Now - "dvc commit" and then "dvc push"
 11. Do a git add-commit-push to mark this stage as first version of data
+12. Now make changes to mycode.py to append a new role in data, check changes via "dvc status"
+13. Again - "dvc commit" and then "dvc push"
